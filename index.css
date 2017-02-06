@@ -1,0 +1,21 @@
+body {
+  min-height: 2000px;
+}
+
+.navbar-static-top {
+  margin-bottom: 19px;
+}
+.navbar, .navbar.navbar-default {
+    background-color: #808080;
+    color: rgba(255,255,255, 0.84);
+}
+.navbar .dropdown-menu li > a:hover, .navbar.navbar-default .dropdown-menu li > a:hover, .navbar .dropdown-menu li > a:focus, .navbar.navbar-default .dropdown-menu li > a:focus {
+    color: #4b4b4b;
+    background-color: #eeeeee;
+}
+.btn:not(.btn-raised).btn-primary, .input-group-btn .btn:not(.btn-raised).btn-primary {
+    color: #808080;
+}
+.btn.btn-lg.btn-primary {
+    text-align: right
+}
